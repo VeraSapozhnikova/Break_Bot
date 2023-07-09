@@ -7,7 +7,7 @@ from telegram import ReplyKeyboardMarkup
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # Create a bot instance
-bot = telegram.Bot(token='6333040173:AAHeiZdftbgLXnGbf8xcJwSgpg_KomF-Yqc')
+bot = telegram.Bot(token='Token')
 
 # Create an Updater with the bot instance
 updater = Updater(bot.token, request_kwargs={'read_timeout': 10})
